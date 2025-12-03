@@ -52,14 +52,14 @@ layers:
   - /
   - RSHFT
   - CLCK
-  - LGUI
-  - {t: '-', h: LALT}
+  - LALT
+  - {t: '-', h: LGUI}
   - ENTER
   - {t: '[', h: lower}
   - {t: ']', h: raise}
   - SPACE
-  - {t: '=', h: RALT}
-  - RGUI
+  - {t: '=', h: RGUI}
+  - RALT
   - RCTRL
   lower:
   - {t: ▽, type: trans}
