@@ -51,14 +51,14 @@ layers:
   - .
   - /
   - RSHFT
-  - CLCK
+  - LCTRL
   - LALT
   - {t: '-', h: LGUI}
   - ENTER
   - {t: '[', h: lower}
   - {t: ']', h: raise}
   - SPACE
-  - {t: '=', h: RGUI}
+  - {t: '=', h: RALT}
   - RALT
   - RCTRL
   lower:
@@ -141,9 +141,9 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - PG UP
   - END
-  - UP
+  - PG UP
+  - PAGE DOWN
   - HOME
   - INS
   - F12
@@ -153,9 +153,9 @@ layers:
   - RGB EFF
   - RGB BRD
   - RGB BRI
-  - PG DN
-  - LEFT
-  - DOWN
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
   - RIGHT
   - DEL
   - {t: CLCK, h: RCTRL}
